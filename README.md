@@ -1,4 +1,3 @@
-DevCanvas
 Welcome to DevCanvas – a playground for practicing HTML, CSS, and JavaScript! Inspired by platforms like CodePen, this repository provides a space where developers  can experiment with frontend technologies, showcase their work, and refine their skills.
 
 Features
