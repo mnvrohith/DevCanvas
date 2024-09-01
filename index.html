@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevCanvas</title>
+    <script src="https://kit.fontawesome.com/e443933985.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css"></link>
+</head>
+<body>
+    <div class="nav-bar">
+        <i class="fa-solid fa-laptop-code"></i>
+      <div class="name">  DevCanvas</div>
+      <div class="tag-line">~Your Playground for Front-End Development</div>
+    </div>
+    <div class="container">
+        <div class="left">
+           <div class="box">
+            <label><i class="fa-brands fa-html5 fa-solid"></i> HTML<i class="fa-solid fa-play" id="html-play" ></i></label>
+            <textarea class="text" id="html-code"  ></textarea>
+            </div>
+        
+          <div class="box">
+            <label><i class="fa-brands fa-css3-alt fa-solid"></i>CSS<i class="fa-solid fa-play " id="css-play"></i></label>
+            <textarea class="text" id="css-code" ></textarea>
+          </div>
+     
+          <div class="box">
+            <label> <i class="fa-brands fa-square-js fa-solid"></i>JS<i class="fa-solid fa-play" id="js-play"></i></label>
+            <textarea class="text" id="js-code" ></textarea>
+            </div>
+        </div>
+        <div class="right">
+            <label id="output-label">OUTPUT<i class="fa-solid fa-play " id="output-play"></i></label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+ <div class="footer">
+Made with HTML,CSS,JS by mnvrohith
+ </div>
+  
+  <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>
